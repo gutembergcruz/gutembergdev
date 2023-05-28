@@ -37,7 +37,7 @@ body {
 display: none;
 }
 .item-menu-on{
-display: block;
+display: flex;
 }
 .menu-mobile{
   display: none;
