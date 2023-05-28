@@ -572,3 +572,270 @@ gap: 15px;
   align-items: center;
   justify-content: center;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  :root {
+    --width-large: 100%;
+    --padding-left: 15px;
+    --padding-right: 15px;
+  }
+
+  .box {
+    overflow: hidden;
+  }
+
+  .hero-name h1 {
+    font-size: 35px;
+  }
+
+  .hero-social p {
+    display: none;
+  }
+
+  .hero-social span {
+    display: none;
+  }
+
+  .hero-name span {
+    animation: none;
+  }
+
+  .opa {
+    font-size: 60px;
+  }
+
+  .super-hero {
+    display: none;
+  }
+
+  .super-title h3 {
+    font-size: 30px;
+    margin-top: -50px;
+  }
+
+  .super-title span {
+    font-size: 40px;
+  }
+
+  .job p {
+    font-size: 15px;
+  }
+
+  .job p br {
+    display: none;
+  }
+
+  .losango-img {
+    width: 300px;
+    left: -150px;
+  }
+
+  .skills-item {
+    width: 18%;
+    height: max-content;
+    padding: 10px 0px;
+    border-radius: 5px;
+  }
+
+  .skills-item img {
+    width: 80%;
+  }
+
+  .skills-item p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .me-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .me-box p {
+    font-size: 15px;
+  }
+
+  .cases-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1139px) {
+  .navzada {
+    padding-bottom: 50px;
+  }
+
+  .navzada nav {
+    justify-content: flex-end;
+  }
+
+  .item-menu {
+    display: none;
+  }
+
+  .item-menu-on {
+    display: none;
+  }
+
+  .item-menu-off {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #eee;
+    color: #eee;
+    font-size: 50px;
+  }
+
+  .item-menu-off:hover {
+    color: #ccc;
+    border-color: #ccc;
+  }
+
+  .menu-mobile {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #0A3876;
+    height: 100%;
+    min-height: 100vh;
+    z-index: 99999;
+    right: -100%;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .menu-mobile a,
+  button {
+    color: #fff;
+    padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .menu-mobile-actived {
+    right: 0;
+  }
+
+  .me-text {
+    max-width: 100%;
+
+  }
+
+  .box-site {
+    flex-direction: column;
+  }
+  .about {
+    width: 100%;
+  }
+  .about p{
+   font-size: 15px;
+  }
+  .mockup {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .fullpage{
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 50px;
+  }
+  .cases-box a p{
+    font-size: 15px;
+  }
+  .highlight-box a p{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1279px) {
+  :root {
+    --padding-left: 10%;
+    --padding-right: 10%;
+  }
+
+  .opa {
+    font-size: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  :root {
+    --padding-left: 20px;
+    --padding-right: 20px;
+  }
+
+  .hero-social p {
+    display: none;
+  }
+
+  .hero-social span {
+    display: block;
+  }
+
+  .hero-name span {
+    animation: none;
+  }
+
+  .opa {
+    font-size: 130px;
+  }
+
+  .job p {
+    font-size: 20px;
+  }
+
+  .losango-img {
+    width: 500px;
+    left: -250px;
+  }
+
+  .skills-item {
+    width: 18%;
+    height: max-content;
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  :root {
+    --padding-left: 10%;
+    --padding-right: 10%;
+  }
+
+  .hero-name h1 {
+    font-size: 55px;
+  }
+
+  .hero-social p {
+    display: block;
+  }
+
+  .opa {
+    font-size: 150px;
+  }
+
+  .super-title h3 {
+    font-size: 50px;
+    margin-top: -90px;
+  }
+
+  .super-title span {
+    font-size: 70px;
+  }
+
+  .job p {
+    font-size: 23px;
+  }
+}

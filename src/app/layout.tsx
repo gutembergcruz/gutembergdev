@@ -1,5 +1,4 @@
 import './globals.css'
-import './responsive.css'
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
