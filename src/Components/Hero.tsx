@@ -23,7 +23,7 @@ export function Hero() {
             <Link href="https://github.com/gutembergcruz" target="_blank" rel="noopener noreferrer" title='Github'>
               <FiGithub />
             </Link>
-            <Link href="https://www.linkedin.com/in/berg-dev-web/" target="_blank" rel="noopener noreferrer" title='Linkedin'>
+            <Link href="https://www.linkedin.com/in/gutembergcruz/" target="_blank" rel="noopener noreferrer" title='Linkedin'>
               <FiLinkedin />
             </Link>
             <Link href="https://www.instagram.com/gut.cruz/" target="_blank" rel="noopener noreferrer" title='Instagram'>
