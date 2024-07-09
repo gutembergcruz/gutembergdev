@@ -95,15 +95,15 @@ body {
 
 @keyframes example-animation {
   0% {
-    width: 200px;
+    width: 180px;
   }
 
   50% {
-    width: 300px;
+    width: 250px;
   }
 
   100% {
-    width: 200px;
+    width: 180px;
   }
 }
 
