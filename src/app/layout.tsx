@@ -1,3 +1,4 @@
+import { url } from 'inspector'
 import './globals.css'
 import { Poppins } from 'next/font/google'
 
@@ -7,8 +8,14 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'Gutemberg Cruz',
+  title: 'Gutemberg.Dev',
   description: 'Olá, eu sou o Gutemberg Cruz. Desenvolvedor Web FullStack.',
+  openGraph: {
+    images: 'https://avatars.githubusercontent.com/gutembergcruz',
+    title: 'Gutemberg.Dev',
+    description: 'Olá, eu sou o Gutemberg Cruz. Desenvolvedor Web FullStack.',
+    url: 'https://gutemberg.pro',
+  },
 }
 
 export default function RootLayout({
