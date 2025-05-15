@@ -1,48 +1,116 @@
 import Image from "next/image";
 import { Title } from "./Title";
 
-import caseMerImg from '../assets/cases/logos/mercedes.jpg';
-import insideImg from '../assets/cases/logos/inside.jpg';
-import elafazImg from '../assets/cases/logos/elafaz.jpg';
-import teslaImg from '../assets/cases/logos/tesla.jpg';
-import trademapImg from '../assets/cases/logos/trademap.jpg';
-import nomadImg from '../assets/cases/logos/nomad.jpg';
+import bioexatavetImg from "../assets/cases/previa/bioexatavet.jpg";
+import captImg from "../assets/cases/previa/capt.jpg";
+import checklistImg from "../assets/cases/previa/checklist.jpg";
+import complementoImg from "../assets/cases/previa/complemento.jpg";
+import fhormulaImg from "../assets/cases/previa/fhormula.jpg";
+import grandsonImg from "../assets/cases/previa/grandson.jpg";
+import h2oImg from "../assets/cases/previa/h2o.png";
+import hbImg from "../assets/cases/previa/hb.jpg";
+import hytorcImg from "../assets/cases/previa/hytorc.jpg";
+import inkImg from "../assets/cases/previa/ink.jpg";
+import inteligenteImg from "../assets/cases/previa/inteligente.jpg";
+import intraempreendaImg from "../assets/cases/previa/intraempreenda.jpg";
+import medeirosImg from "../assets/cases/previa/medeiros.jpg";
+import modernaImg from "../assets/cases/previa/moderna.jpg";
+import norteshopImg from "../assets/cases/previa/norteshop.jpg";
+import nossarifaImg from "../assets/cases/previa/nossarifa.jpg";
+import nyataImg from "../assets/cases/previa/nyata.jpg";
+import nypagImg from "../assets/cases/previa/nypag.jpg";
+import portalatualizadoImg from "../assets/cases/previa/portalatualizado.jpg";
+import souzaImg from "../assets/cases/previa/souza.jpg";
+import uniprintImg from "../assets/cases/previa/uniprint.jpg";
 
 import Link from "next/link";
 
 export function Highlight() {
   return (
-    <div className="highlight bg-dk-100">
-      <Title text="Cases Destaques" />
-      <div className="highlight-box">
-        <Link href="/cases/mercedes">
-          <Image src={caseMerImg} alt="Logo Mercedes Benz"/>
+    <div className="cases bg-dk-100" style={{"paddingBottom": "100px"}}>
+      <Title text="Alguns cases" />
+      <div className="cases-box grid gap-5 grid-cols-4">
+        <Link href="cases/bioexatavet">
+          <Image src={bioexatavetImg} alt="" />
           <p>Saber mais</p>
         </Link>
-        <Link href="/cases/nomad">
-          <Image src={nomadImg} alt="Logo Nomad"/>
+        <Link href="cases/h2o">
+          <Image src={h2oImg} alt="" />
           <p>Saber mais</p>
         </Link>
-        <Link href="/cases/elafaz">
-          <Image src={elafazImg} alt="Logo Ela Faz"/>
+        <Link href="cases/hb">
+          <Image src={hbImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/moderna">
+          <Image src={modernaImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/portalatualizado">
+          <Image src={portalatualizadoImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/hytorc">
+          <Image src={hytorcImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/uniprint">
+          <Image src={uniprintImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/souza">
+          <Image src={souzaImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/nypag">
+          <Image src={nypagImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/nyata">
+          <Image src={nyataImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/nossarifa">
+          <Image src={nossarifaImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/norteshop">
+          <Image src={norteshopImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/medeiros">
+          <Image src={medeirosImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/inteligente">
+          <Image src={inteligenteImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/ink">
+          <Image src={inkImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/grandson">
+          <Image src={grandsonImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/complemento">
+          <Image src={complementoImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/checklist">
+          <Image src={checklistImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/capt">
+          <Image src={captImg} alt="" />
+          <p>Saber mais</p>
+        </Link>
+        <Link href="cases/intraempreenda">
+          <Image src={intraempreendaImg} alt="" />
           <p>Saber mais</p>
         </Link>
       </div>
-      <div className="highlight-box">
-        <Link href="/cases/trademap">
-          <Image src={trademapImg} alt="Logo Trademap"/>
-          <p>Saber mais</p>
-        </Link>
-        <Link href="/cases/tesla">
-          <Image src={teslaImg} alt="Logo Tesla"/>
-          <p>Saber mais</p>
-        </Link>
-        <Link href="/cases/inside">
-          <Image src={insideImg} alt="Logo Inside"/>
-          <p>Saber mais</p>
-        </Link>
-      </div>
-      <Link href="/cases" className="btn-all bg-blue-100 hover:bg-blue-50">Ver todos</Link>
     </div>
-  )
+  );
 }

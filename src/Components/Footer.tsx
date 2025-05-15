@@ -14,9 +14,9 @@ export function Footer() {
                 <Link href="mailto:gutemberg.n.cruz@gmail.com" target="_blank" rel="noopener noreferrer">
                   <p><span><SiGmail className='text-red-100' /></span> gutemberg.n.cruz@gmail.com</p>
                 </Link>
-                <Link href="https://api.whatsapp.com/send?phone=5592993964791&text=Opa,%20b%C3%A3o?" target="_blank" rel="noopener noreferrer">
+                {/* <Link href="https://api.whatsapp.com/send?phone=5592993964791&text=Opa,%20b%C3%A3o?" target="_blank" rel="noopener noreferrer">
                   <p> <span><ImWhatsapp className='text-red-100' /></span> +55 92 99396-4791</p>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

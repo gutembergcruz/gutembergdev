@@ -34,9 +34,9 @@ export function Nav(props: MenuType) {
       <nav className="flex-1 flex items-center justify-around">
         <Link href="/" className={menu === 1 ? "item-menu item-menu-active" : "item-menu"}>Inicio</Link>
         <Link href="/about" className={menu === 2 ? "item-menu item-menu-active" : "item-menu"}>Sobre mim</Link>
-        <Link href="/cases" className={menu === 3 ? "item-menu item-menu-active" : "item-menu"}>Cases</Link>
+        {/* <Link href="/cases" className={menu === 3 ? "item-menu item-menu-active" : "item-menu"}>Cases</Link> */}
         <button className="item-menu" onClick={() => window.scrollTo(0, document.body.scrollHeight)}>Contato</button>
-        <Link href="https://drive.google.com/file/d/1IA5YSSkaK3HVKam_qw7wJRzR022gsCqW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="item-menu-on bg-blue-150 hover:bg-blue-50 px-5 flex text-white-100 py-2 rounded-lg gap-3 items-center justify-center">Download CV <FiDownload /> </Link>
+        <Link href="https://drive.google.com/file/d/16jtIBoX9EDkPI2mrKVKfviFb9V0aLzkX/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="item-menu-on bg-blue-150 hover:bg-blue-50 px-5 flex text-white-100 py-2 rounded-lg gap-3 items-center justify-center">Download CV <FiDownload /> </Link>
         <button className="item-menu-off" onClick={() => handleActiveMenu()}>
           <p>
             <FiMenu />
@@ -47,9 +47,9 @@ export function Nav(props: MenuType) {
         <button className="bg-dk-50" onClick={() => handleActiveMenu()}>Fechar menu</button>
         <Link href="/" className={menu === 1 ? "item-menu-active" : ""}>Inicio</Link>
         <Link href="/about" className={menu === 2 ? "item-menu-active" : ""}>Sobre mim</Link>
-        <Link href="/cases" className={menu === 3 ? "item-menu-active" : ""}>Cases</Link>
+        {/* <Link href="/cases" className={menu === 3 ? "item-menu-active" : ""}>Cases</Link> */}
         <button className="" onClick={() => { handleActiveMenu(); window.scrollTo(0, document.body.scrollHeight) }}>Contato</button>
-        <Link href="https://drive.google.com/file/d/1IA5YSSkaK3HVKam_qw7wJRzR022gsCqW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="bg-red-150 hover:bg-red-50 px-5 flex text-white-100 py-2 rounded-lg gap-3 items-center justify-center">Download CV <FiDownload /> </Link>
+        <Link href="https://drive.google.com/file/d/16jtIBoX9EDkPI2mrKVKfviFb9V0aLzkX/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bg-red-150 hover:bg-red-50 px-5 flex text-white-100 py-2 rounded-lg gap-3 items-center justify-center">Download CV <FiDownload /> </Link>
       </div>
     </header>
   )
