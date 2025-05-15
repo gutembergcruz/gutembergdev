@@ -9,16 +9,16 @@ export function Hero() {
     <div className="hero">
       <div className="hero-box">
         <div className='relative'>
-          <p className='opa'>Opa, bão?</p>
+          <p className='opa'>Hey there!</p>
         </div>
         <div className="flex items-end justify-between">
           <div className='hero-name'>
-            <h1>Eu sou o<br />Gutemberg Cruz</h1>
+            <h1>My name is<br />Gutemberg Cruz</h1>
             <span></span>
-            <h2>Desenvolvedor Web FullStack</h2>
+            <h2>Web3 Developer</h2>
           </div>
           <div className='hero-social'>
-            <p>Me siga</p>
+            <p>Follow me</p>
             <span></span>
             <Link href="https://github.com/gutembergcruz" target="_blank" rel="noopener noreferrer" title='Github'>
               <FiGithub />

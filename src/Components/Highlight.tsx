@@ -28,87 +28,87 @@ import Link from "next/link";
 export function Highlight() {
   return (
     <div className="cases bg-dk-100" style={{"paddingBottom": "100px"}}>
-      <Title text="Alguns cases" />
+      <Title text="Some cases" />
       <div className="cases-box grid gap-5 grid-cols-4">
         <Link href="cases/bioexatavet">
           <Image src={bioexatavetImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/h2o">
           <Image src={h2oImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/hb">
           <Image src={hbImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/moderna">
           <Image src={modernaImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/portalatualizado">
           <Image src={portalatualizadoImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/hytorc">
           <Image src={hytorcImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/uniprint">
           <Image src={uniprintImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/souza">
           <Image src={souzaImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/nypag">
           <Image src={nypagImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/nyata">
           <Image src={nyataImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/nossarifa">
           <Image src={nossarifaImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/norteshop">
           <Image src={norteshopImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/medeiros">
           <Image src={medeirosImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/inteligente">
           <Image src={inteligenteImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/ink">
           <Image src={inkImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/grandson">
           <Image src={grandsonImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/complemento">
           <Image src={complementoImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/checklist">
           <Image src={checklistImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/capt">
           <Image src={captImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
         <Link href="cases/intraempreenda">
           <Image src={intraempreendaImg} alt="" />
-          <p>Saber mais</p>
+          <p>Learn More</p>
         </Link>
       </div>
     </div>

@@ -7,13 +7,12 @@ export function Job() {
   return (
     <div className="job bg-dk-100">
       <div className="job-box">
-        <Title text="Meu trampo" />
+        <Title text="My Focus" />
         <Image className="losango-img" src={losangoImg} alt="" />
         <p className="text-white-100">
-        Com uma sólida experiência de 7 anos em desenvolvimento web, meu principal objetivo é auxiliar <br /> <span>sua empresa</span> a alcançar um alto nível de engajamento nos <span>mecanismos de busca</span>, <br />proporcionando uma <span>experiência</span> de navegação otimizada para o usuário final e uma <br /> interface <span>limpa e intuitiva</span>.
+        With a solid 7 years of experience in web development, my main goal is to help <br /> <span>your project</span> to achieve strong <span>search engine visibility</span>, <br />by delivering an optimized browsing <span>experience</span> through a <br /><span>clean and intuitive</span> interface.
       </p>
       </div>
-      
     </div>
   )
 }

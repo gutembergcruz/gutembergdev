@@ -10,7 +10,7 @@ export function Footer() {
           <div className="footer-points">
             <div className="footer-dk bg-dk-50">
               <div className="footer-content" id="rodape">
-                <h3>Fecha comigo?</h3>
+                <h3>You with me?</h3>
                 <Link href="mailto:gutemberg.n.cruz@gmail.com" target="_blank" rel="noopener noreferrer">
                   <p><span><SiGmail className='text-red-100' /></span> gutemberg.n.cruz@gmail.com</p>
                 </Link>

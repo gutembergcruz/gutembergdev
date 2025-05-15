@@ -7,15 +7,15 @@ export function Me() {
     <div className="me">
       <div className="me-box">
         <div className="me-text">
-          <h4 className="text-blue-50 font-bold text-[35px] mb-5">Quem é gutemberg?</h4>
+          <h4 className="text-blue-50 font-bold text-[35px] mb-5">Who is Gutemberg?</h4>
           <p className="text-white-100 text-[20px] mb-3">
-          Nascido em Manaus-AM, Gutemberg iniciou sua carreira como Desenvolvedor Front End há 5 anos. Ao longo do tempo, ele refinou suas habilidades e expandiu seu conhecimento como UX/UI Designer e FullStack. Sua trajetória profissional inclui contribuições em projetos para empresas renomadas como Mercedes Benz, Mondelez, Tesla, Itau, Samsung, Nestle, entre outras.
+          Born in Manaus, Brazil, Gutemberg began his career as a Front-End Developer seven years ago. Over time, he refined his skills and expanded his expertise to include UX/UI Design and Full-Stack Development. His professional journey includes contributions to projects for renowned companies such as Mercedes-Benz, Mondelez, Tesla, Itaú, Samsung, Nestlé, among others.
           </p>
           <p className="text-white-100 text-[20px] mb-3">
-          Gutemberg sempre buscou desafios e encontrou nos Hackathons o ambiente perfeito para testar suas habilidades. Ele participou de inúmeros eventos desse tipo e, com dedicação e talento, conquistou algumas vitórias notáveis.
+          Gutemberg has always sought out challenges and found the perfect environment to test his skills in hackathons. He has participated in numerous events of this kind and, through dedication and talent, earned several notable wins.
           </p>
           <p className="text-white-100 text-[20px]">
-          Uma das maiores realizações de sua carreira foi a vitória em seu primeiro hackathon, que lhe rendeu valiosas mentorias presenciais com profissionais de tecnologia no polo tecnológico de Tel Aviv, Israel. Essa experiência proporcionou a Gutemberg uma visão de negócio ampliada, impulsionando-o a buscar sempre a escalabilidade em seus projetos.
+          One of the biggest achievements of his career was winning his very first hackathon, which earned him valuable in-person mentorships with tech professionals in the innovation hub of Tel Aviv, Israel. This experience gave Gutemberg a broader business perspective and sparked his drive to always pursue scalability in his projects.
           </p>
         </div>
         <div className="me-img">
