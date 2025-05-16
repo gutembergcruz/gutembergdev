@@ -11,7 +11,7 @@ export function PrevSites(props: TypeSite) {
   return (
     <Link href="cases/site">
       <Image src={props.site} alt="Previa do Site" />
-      <p>Saber mais</p>
+      <p>Learn more</p>
     </Link>
   )
 }
