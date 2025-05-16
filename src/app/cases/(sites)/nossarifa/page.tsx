@@ -1,29 +1,38 @@
-import { Techs } from "@/Components/Techs"
-import { Title } from "@/Components/Title"
-import Image from "next/image"
+import { Techs } from "@/Components/Techs";
+import { Title } from "@/Components/Title";
+import Image from "next/image";
 
-import bergImg from '../../../../assets/cases/full/nossarifa.jpg'
-import Link from "next/link"
-import { Associate } from "@/Components/Associate"
+import bergImg from "../../../../assets/cases/full/nossarifa.jpg";
+import Link from "next/link";
+import { Associate } from "@/Components/Associate";
 
 export default function Site() {
-
   return (
     <div className="site">
       <Title text="Nossa Rifa" />
       <div className="box-site">
         <div className="about">
-          <h4>Sobre o projeto</h4>
-          <p>O Nossa Rifa é um site especializado em realizar rifas online, proporcionando uma forma divertida e emocionante de participar de sorteios e concorrer a prêmios incríveis. Com o Nossa Rifa, você pode explorar uma variedade de rifas disponíveis e adquirir bilhetes de forma fácil e segura.
-<br /><br />
-O site oferece uma plataforma intuitiva, onde você pode encontrar informações detalhadas sobre cada rifa, incluindo descrição do prêmio, número de bilhetes disponíveis e data do sorteio. Além disso, o Nossa Rifa disponibiliza meios de pagamento seguros e opções de participação para atender às suas preferências.
-</p>
-<br />
+          <h4>About project</h4>
+          <p>
+            Nossa Rifa is a website specialized in hosting online raffles,
+            providing a fun and exciting way to participate in drawings and
+            compete for amazing prizes. With Nossa Rifa, you can explore a
+            variety of available raffles and purchase tickets easily and
+            securely.
+            <br />
+            <br />
+            The website offers an intuitive platform where you can find detailed
+            information about each raffle, including prize descriptions, number
+            of tickets available, and the drawing date. Additionally, Nossa Rifa
+            provides secure payment methods and participation options to suit
+            your preferences.
+          </p>
+          <br />
           <p>✅ Briefing</p>
           <p>✅ UI Design</p>
-          <p>✅ Desenvolvimento Front</p>
+          <p>✅ Front End Developmen</p>
           <p>✅ SEO</p>
-          <h4>Tecnologias utilizadas</h4>
+          <h4>Technologies Used</h4>
           <Techs html css jquery js git figma />
           <Associate c />
         </div>
@@ -31,7 +40,12 @@ O site oferece uma plataforma intuitiva, onde você pode encontrar informações
           <Image src={bergImg} alt="" />
         </div>
       </div>
-      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Voltar</Link>
+      <Link
+        href="/cases"
+        className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center"
+      >
+        Go back
+      </Link>
     </div>
-  )
+  );
 }

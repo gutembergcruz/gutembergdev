@@ -13,12 +13,12 @@ export default function Sistema() {
       <Title text="Mercedes Benz" />
       <div className="box-site">
         <div className="about">
-          <h4>Sobre o projeto</h4>
+          <h4>About project</h4>
           <p>Foi desenvolvido um sistema com o objetivo de coletar dados sobre a condução dos caminhões da frota da Mercedes Benz, visando mapear e identificar as melhores rodovias e trechos para percorrer, a fim de reduzir significativamente os acidentes e problemas mecânicos decorrentes das condições das estradas.</p>
           <h4>Minha atuação:</h4>
           <p>Desenvolvedor Front-End</p>
           <p>Desenvolvedor Mobile</p>
-          <h4>Tecnologias utilizadas</h4>
+          <h4>Technologies Used</h4>
           <Techs html css react rn flutter />
           <Associate d/>
         </div>
@@ -26,7 +26,7 @@ export default function Sistema() {
           <Image src={mockupImg} alt="" />
         </div>
       </div>
-      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Voltar</Link>
+      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Go back</Link>
     </div>
   )
 }

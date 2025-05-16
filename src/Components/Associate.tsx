@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Associate(props: any){
   return(
-    <p>Associado a: {' '}
+    <p>Associated with: {' '}
       {props.d && 
       <Link href="https://www.driveonauto.com/" target="_blank" rel="noopener noreferrer" className="underline">DriveOn</Link>
       } 

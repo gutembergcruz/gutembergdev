@@ -1,29 +1,46 @@
-import { Techs } from "@/Components/Techs"
-import { Title } from "@/Components/Title"
-import Image from "next/image"
+import { Techs } from "@/Components/Techs";
+import { Title } from "@/Components/Title";
+import Image from "next/image";
 
-import bergImg from '../../../../assets/cases/full/h2o.jpg'
-import Link from "next/link"
-import { Associate } from "@/Components/Associate"
+import bergImg from "../../../../assets/cases/full/h2o.jpg";
+import Link from "next/link";
+import { Associate } from "@/Components/Associate";
 
 export default function Site() {
-
   return (
     <div className="site">
       <Title text="Quality H2o" />
       <div className="box-site">
         <div className="about">
-          <h4>Sobre o projeto</h4>
-          <p>O Laboratório QualityH2o foi fundado em 2019 na cidade de Manaus, com o principal objetivo de realizar análises físico-químicas e bacteriológicas. Contamos com equipamentos de última geração e uma equipe de profissionais altamente qualificados, visando superar as expectativas dos nossos clientes. Nosso foco é fornecer um atendimento excepcional tanto para empresas, instituições, condomínios e residências, garantindo qualidade, confiabilidade, agilidade e preços diferenciados.
-<br /><br />
-Além disso, oferecemos serviços de assessoramento para auxiliar nossos clientes na obtenção de aprovações junto aos órgãos competentes, cumprindo rigorosamente as legislações aplicáveis. Também estamos comprometidos em fornecer soluções ambientais eficientes, buscando promover práticas sustentáveis.
-<br /><br />
-No Laboratório QualityH2o, nosso compromisso é com a excelência, garantindo resultados precisos e confiáveis em todas as análises realizadas. Estamos empenhados em atender às necessidades individuais de cada cliente, priorizando a satisfação e o sucesso deles em todas as etapas do processo.</p>
+          <h4>About project</h4>
+          <p>
+            QualityH2o Laboratory was founded in 2019 in the city of Manaus,
+            with the primary goal of performing physicochemical and
+            bacteriological analyses. We have state-of-the-art equipment and a
+            team of highly qualified professionals, aiming to exceed our
+            clients’ expectations. Our focus is to provide exceptional service
+            to companies, institutions, condominiums, and residences, ensuring
+            quality, reliability, agility, and competitive pricing.
+            <br />
+            <br />
+            Additionally, we offer advisory services to assist our clients in
+            obtaining approvals from the relevant authorities, strictly
+            complying with applicable regulations. We are also committed to
+            providing efficient environmental solutions, aiming to promote
+            sustainable practices.
+            <br />
+            <br />
+            At QualityH2o Laboratory, our commitment is to excellence, ensuring
+            precise and reliable results in all analyses performed. We are
+            dedicated to meeting the individual needs of each client,
+            prioritizing their satisfaction and success at every stage of the
+            process.
+          </p>
           <p>✅ Briefing</p>
           <p>✅ UI Design</p>
-          <p>✅ Desenvolvimento Front</p>
+          <p>✅ Front End Developmen</p>
           <p>✅ SEO</p>
-          <h4>Tecnologias utilizadas</h4>
+          <h4>Technologies Used</h4>
           <Techs html css jquery js git figma />
           <Associate c />
         </div>
@@ -31,7 +48,12 @@ No Laboratório QualityH2o, nosso compromisso é com a excelência, garantindo r
           <Image src={bergImg} alt="" />
         </div>
       </div>
-      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Voltar</Link>
+      <Link
+        href="/cases"
+        className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center"
+      >
+        Go back
+      </Link>
     </div>
-  )
+  );
 }

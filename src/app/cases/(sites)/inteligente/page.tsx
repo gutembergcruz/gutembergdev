@@ -1,28 +1,30 @@
-import { Techs } from "@/Components/Techs"
-import { Title } from "@/Components/Title"
-import Image from "next/image"
+import { Techs } from "@/Components/Techs";
+import { Title } from "@/Components/Title";
+import Image from "next/image";
 
-import bergImg from '../../../../assets/cases/full/inteligente.jpg'
-import Link from "next/link"
-import { Associate } from "@/Components/Associate"
+import bergImg from "../../../../assets/cases/full/inteligente.jpg";
+import Link from "next/link";
+import { Associate } from "@/Components/Associate";
 
 export default function Site() {
-
   return (
     <div className="site">
       <Title text="InteliGente" />
       <div className="box-site">
         <div className="about">
-          <h4>Sobre o projeto</h4>
-          <p>A InteliGente é uma empresa especializada em consultoria de carreira, oferecendo orientação personalizada e estratégias eficientes para ajudar os profissionais a alcançarem seus objetivos profissionais. Com uma abordagem inteligente e experiente, a InteliGente auxilia os clientes na identificação de suas habilidades, interesses e metas, fornecendo um plano de ação para impulsionar suas carreiras.
-<br /><br />
-Por meio de serviços como análise de perfil profissional, desenvolvimento de currículo, orientação para entrevistas e networking, a InteliGente capacita os indivíduos a se destacarem no mercado de trabalho e aproveitarem as oportunidades que surgem. Com uma equipe de consultores experientes e conhecimento atualizado sobre as tendências do mercado, a InteliGente é uma parceira confiável para aqueles que buscam um direcionamento estratégico e apoio especializado na progressão de suas carreiras.</p>
-<br />
+          <h4>About project</h4>
+          <p>
+            InteliGente is a company specialized in career consulting, offering personalized guidance and effective strategies to help professionals achieve their career goals. With an intelligent and experienced approach, InteliGente assists clients in identifying their skills, interests, and objectives, providing an action plan to boost their careers.
+            <br />
+            <br />
+            Through services such as professional profile analysis, resume development, interview coaching, and networking guidance, InteliGente empowers individuals to stand out in the job market and seize emerging opportunities. With a team of experienced consultants and up-to-date knowledge of market trends, InteliGente is a trusted partner for those seeking strategic direction and specialized support in advancing their careers.
+          </p>
+          <br />
           <p>✅ Briefing</p>
           <p>✅ UI Design</p>
-          <p>✅ Desenvolvimento Front</p>
+          <p>✅ Front End Developmen</p>
           <p>✅ SEO</p>
-          <h4>Tecnologias utilizadas</h4>
+          <h4>Technologies Used</h4>
           <Techs html css jquery js git figma />
           <Associate c />
         </div>
@@ -30,7 +32,12 @@ Por meio de serviços como análise de perfil profissional, desenvolvimento de c
           <Image src={bergImg} alt="" />
         </div>
       </div>
-      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Voltar</Link>
+      <Link
+        href="/cases"
+        className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center"
+      >
+        Go back
+      </Link>
     </div>
-  )
+  );
 }

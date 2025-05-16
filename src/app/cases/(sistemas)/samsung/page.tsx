@@ -13,11 +13,11 @@ export default function Sistema() {
       <Title text="Samsung ESD4" />
       <div className="box-site">
         <div className="about">
-          <h4>Sobre o projeto</h4>
+          <h4>About project</h4>
           <p>A plataforma ESD4 foi desenvolvida com o propósito de testar uniformes antiestáticos completos, ionizadores e possíveis surtos, entre outras métricas. Seu objetivo é garantir a segurança do ambiente durante o manuseio de componentes, prevenindo curtos-circuitos..</p>
           <h4>Minha atuação</h4>
           <p>Desenvolvedor Front End</p>
-          <h4>Tecnologias utilizadas</h4>
+          <h4>Technologies Used</h4>
           <Techs html css react rn git ts />
           <Associate d/>
         </div>
@@ -25,7 +25,7 @@ export default function Sistema() {
           <Image src={bergImg} alt="" />
         </div>
       </div>
-      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Voltar</Link>
+      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Go back</Link>
     </div>
   )
 }

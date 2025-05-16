@@ -13,14 +13,14 @@ export default function Site() {
       <Title text="BioexataVet" />
       <div className="box-site">
         <div className="about">
-          <h4>Sobre o projeto</h4>
-          <p>A BioexataVet é uma renomada farmácia de manipulação de medicamentos para animais de estimação. Através do seu site, é possível encontrar uma ampla variedade de produtos naturais que visam aprimorar a saúde do seu querido companheiro. Além disso, caso necessite de uma medicação específica e exclusiva, você pode entrar em contato diretamente com eles. Com a BioexataVet, você tem acesso a soluções personalizadas e de alta qualidade para cuidar da saúde do seu animalzinho de estimação.</p>
-          <p>Além disso, o site da BioexataVet oferece um sistema de blog aberto, no qual veterinários de diferentes níveis de experiência têm a oportunidade de se cadastrar e compartilhar suas dicas e informações gerais sobre o mundo veterinário. Essa plataforma é um espaço acolhedor e inclusivo, onde profissionais iniciantes e experientes podem contribuir com seu conhecimento e experiência. Acreditamos que cada veterinário tem insights valiosos a oferecer, independentemente do seu tempo de atuação. Ao se cadastrar no nosso sistema de blog, você terá a chance de compartilhar suas perspectivas e ajudar a enriquecer o conhecimento coletivo sobre cuidados com animais de estimação. Nosso objetivo é fornecer um ambiente colaborativo, onde todos os veterinários se sintam incentivados a compartilhar seu conhecimento e aprendizado, proporcionando um espaço diversificado e inclusivo para o crescimento profissional.</p>
-          <p>✅ Briefing</p>
+          <h4>About project</h4>
+          <p>BioexataVet is a renowned compounding pharmacy specializing in medications for pets. Through their website, you can find a wide variety of natural products aimed at enhancing your beloved companion’s health. In addition, if you need a specific and customized medication, you can contact them directly. With BioexataVet, you have access to personalized, high-quality solutions to care for your pet’s well-being.</p>
+          <p>Moreover, the BioexataVet website features an open blog system, where veterinarians of all experience levels have the opportunity to register and share their tips and general information about the veterinary world. This platform is a welcoming and inclusive space, where both beginner and seasoned professionals can contribute their knowledge and experience. We believe that every veterinarian has valuable insights to offer, regardless of how long they’ve been practicing. By registering on our blog system, you’ll have the chance to share your perspectives and help enrich collective knowledge about pet care. Our goal is to provide a collaborative environment where all veterinarians feel encouraged to share what they know and have learned, creating a diverse and inclusive space for professional growth.</p>
+          <p>✅ Briefing</p>                                                                                                      
           <p>✅ UI Design</p>
-          <p>✅ Desenvolvimento Front</p>
+          <p>✅ Front End Development</p>
           <p>✅ SEO</p>
-          <h4>Tecnologias utilizadas</h4>
+          <h4>Technologies Used</h4>
           <Techs html css jquery js git figma />
           <Associate c />
         </div>
@@ -28,7 +28,7 @@ export default function Site() {
           <Image src={bergImg} alt="" />
         </div>
       </div>
-      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Voltar</Link>
+      <Link href="/cases" className="go-back bg-red-150 text-white-100 w-[100px] h-[50px] hover:bg-red-50 flex items-center justify-center" >Go back</Link>
     </div>
   )
 }
